@@ -115,54 +115,62 @@ footer {
 }
 
 /* 
-HOMEPAGE and MENU STYLES
+HOMEPAGE, MENU, and RESOURCES STYLES
 */
 #homepage,
-#menu      {
+#menu,
+#resources      {
   background-image: url('../images/halftone.png')
 }
 
-#homepage nav,
-#menu nav {
+#homepage nav {
   text-align: center;
 }
 
 #homepage h2,
-#menu h2 {
+#menu h2,
+#resources h2 {
   color: #662F0E;
 }
 
 #homepage header,
-#menu header {
+#menu header,
+#resources header {
   border: 4px solid #662F0E;
 }
 
 #homepage header h1,
 #homepage header h2,
 #menu header h1,
-#menu header h2 {
+#menu header h2,
+#resources header h2 {
   color: #662F0E;
 }
 
 #homepage header a, 
 #homepage header a:visited,
 #menu header a,
-#menu header a:visited {  
+#menu header a:visited,
+#resources header a,
+#resources header a:visited {  
   color: #662F0E;
 }
 
 #homepage nav,
-#menu nav {
+#menu nav,
+#resources nav {
   border-top: 4px solid #662F0E;
 }
 
 #homepage ul.categories a,
-#menu ul.categories a {
+#menu ul.categories a,
+#resources ul.categories a {
   color: #662F0E;
 }
 
 #homepage footer,
-#menu footer {
+#menu footer,
+#resources footer {
   background-color: #662F0E;
 }
 
@@ -209,6 +217,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#860000', end
 #africa a {
   color: #3D3950; /* Blue */
   font-weight: bolder;
+}
+
+#africa img {
+  display: block;
+  margin: 0 auto;
+  border: 3px groove #860000;
 }
 
 #africa footer {
